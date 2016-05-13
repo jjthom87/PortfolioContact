@@ -2,6 +2,8 @@
 	<html>
 		<head>
 			<title>My Life</title>
+			<link href='https://fonts.googleapis.com/css?family=Chewy' rel='stylesheet' type='text/css'>
+			<link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
 			<link href="reset.css" rel="stylesheet" type="text/css" />
 			<link href="style.css" rel="stylesheet" type="text/css" />
 		</head>
@@ -9,20 +11,23 @@
 			<div class="container">
 						<h1 class="header">Jared Thomas</h1>
 					<div class="links">
-					  	<p id="about"><a href= "#">About</a></p>
-					  	<p id="portfolio"><a href= "http://jjthom87.github.io/basic-portfolio/portfolio">Portfolio</a></p>
-					  	<p id="contact"><a href= "/contact">Contact</a></p>
+					  	<p id="about"><a href= "http://mysterious-meadow-10278.herokuapp.com">About</a></p>
+					  	<p id="portfolio"><a href= "http://hidden-dusk-68070.herokuapp.com">Portfolio</a></p>
+					  	<p id="contact"><a href= "#">Contact</a></p>
 					</div>
 				<div class="two2">
 					<div class="three2">
-							<h2 class="contactword">Contact</h2>
-							<h3>Name</h3>
-								<textarea></textarea>
-							<h4 class="email">E-Mail</h4>
-								<textarea></textarea>
-							<h6 class="message">Message</h6>
-								<textarea class="messagebox"></textarea>
-							<a id="submit" href="mail to:jjthom87@yahoo.com" target="_blank">Submit</a>
+							<form action="mailto:jjthom87" method="post" enctype="text/plain">
+								<h2 class="contactword">Contact</h2>
+								<h3>Name</h3>
+								<input class="text" type="text" name="name" value="">
+								<h4 class="email">E-Mail</h4>
+								<input class="text" type="text" name="email" value="">
+								<h6 class="message">Message</h6>
+								<textarea class="messagebox" <type="text" name="message" value="your message"></textarea>
+								<input class="submitt" type="submit" value="Send">
+								<input class="reset" type="reset" value="Reset">
+							</form>
 					</div>
 					<div class="three4">	
 						<div class="connect2">
